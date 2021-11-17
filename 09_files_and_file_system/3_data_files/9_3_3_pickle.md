@@ -56,11 +56,13 @@ Pickle是Python官方提供的用来做Python对象缓存的标准库。
 ## 写入后不关闭文件直接读取
 
 ```python
->>> f = open('test.pickle', 'wb')
+>>> f = open('test.pickle', 'wb+')
 >>> pickle.dump(mystring, f)
 >>> f.seek(0)
+0
 >>> pickle.load(f)
 '这是一段中文'
+>>> f.close()
 ```
 
 但从代码规范的角度，不建议采用不关闭文件直接读取的操作。
@@ -77,6 +79,7 @@ Pickle是Python官方提供的用来做Python对象缓存的标准库。
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: write() argument must be str, not bytes
+>>> f.close()
 ```
 
 如果使用`r`格式写入，则会报错：
