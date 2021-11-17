@@ -55,6 +55,8 @@ Pickle是Python官方提供的用来做Python对象缓存的标准库。
 
 ## 写入后不关闭文件直接读取
 
+使用`wb+`或`ab+`或`rb+`这些既可读也可写的格式。
+
 ```python
 >>> f = open('test.pickle', 'wb+')
 >>> pickle.dump(mystring, f)
