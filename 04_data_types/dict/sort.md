@@ -1,3 +1,9 @@
+---
+author: 张果
+created_at: 2022-04-27
+updated_at: 2022-04-27
+---
+
 # 字典排序和比较
 
 ## 使用max或sorted的key参数
@@ -15,17 +21,40 @@ for i in range(1000)]
 
 我们尝试print前十个看看它长什么样子。
 
+```python
+print(file_list[0:10])
+```
+
+### max比较大小
 
 我们希望拿出最大的一个来试试。
 
-max例子。
+```python
+max(file_list, key=lambda item: item['file_size'])
+```
 
+特别注意，这里的`key`需要填一个函数，列表中的元素按照此函数的返回值比较大小。
+
+### sorted排序
 
 我们如果希望拿最大的10个呢？
 
-sorted的例子。
+```python
+sorted(file_list, key=labmda item: item['file_size'], reverse=True)[0:10]
+```
 
+`reverse`参数控制降序或者升序。默认为`False`升序，即从小到大排；我们这里调整成`True`降序，即从大到小排。
 
-作业题：
+### 练习题
 
-{file name: {content-length: 6}}
+假设我们的数据变成了如下结构：
+
+```python
+file_dict = {
+    'name_1': {'file_size': 10},
+    'name_2': {'file_size': 100},
+    ...
+}
+```
+
+如何获取最大的一个或者十个？
