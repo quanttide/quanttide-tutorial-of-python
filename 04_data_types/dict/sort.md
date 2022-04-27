@@ -58,3 +58,7 @@ file_dict = {
 ```
 
 如何获取最大的一个或者十个？
+
+## 参考资料
+
+- [Python的max函数](https://www.programiz.com/python-programming/methods/built-in/max)
