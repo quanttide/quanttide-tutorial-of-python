@@ -1,4 +1,4 @@
-# Python编程
+# Python编程教程
 
 第一门编程课，学习编程思想和Python语言。
 

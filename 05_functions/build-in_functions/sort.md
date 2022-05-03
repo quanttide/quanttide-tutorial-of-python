@@ -2,6 +2,15 @@
 author: 张果
 created_at: 2022-04-27
 updated_at: 2022-05-02
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
 ---
 
 # 排序和比较
@@ -15,7 +24,7 @@ updated_at: 2022-05-02
 
 我们首先模拟一个文件信息列表。
 
-```python
+```{code-cell} ipython
 import random
 
 file_list = [{"file_name": f"name{i}", "file_size": random.randint(1, 1000000)}
@@ -24,7 +33,7 @@ for i in range(1000)]
 
 我们尝试print前十个看看它长什么样子。
 
-```python
+```{code-cell} ipython
 print(file_list[0:10])
 ```
 
