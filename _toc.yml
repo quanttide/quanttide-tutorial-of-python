@@ -14,9 +14,9 @@ chapters:
       - file: 05_functions/buildin_functions/sort.md
       - file: 05_functions/code_style/naming_function.md
       - file: 05_functions/functional_programming/README.md
-  - file: 06_class_and_objects/README.md
+  - file: 06_objects/README.md
     sections:
-      - file: 06_class_and_objects/design_patterns/README.md
+      - file: 06_objects/design_patterns/README.md
   - file: 07_modules/README.md
     sections:
       - file: 07_modules/modular_design/README.md
