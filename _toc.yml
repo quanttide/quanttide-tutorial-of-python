@@ -16,23 +16,26 @@ chapters:
       - file: 05_functions/functional_programming/README.md
   - file: 06_objects/README.md
     sections:
+      - file: 06_objects/magic_methods/README.md
       - file: 06_objects/design_patterns/README.md
   - file: 07_modules/README.md
     sections:
       - file: 07_modules/modular_design/README.md
-  - file: 08_files_and_file_system/README.md
+  - file: 08_files/README.md
     sections:
-      - file: 08_files_and_file_system/1_files/file_object.md
-      - file: 08_files_and_file_system/1_files/tmp_file.md
-      - file: 08_files_and_file_system/2_file_system/README.md
-      - file: 08_files_and_file_system/3_data_files/README.md
+      - file: 08_files/1_files/1_file_object.md
+      - file: 08_files/1_files/2_tempfile.md
+      - file: 08_files/1_files/3_context_manager.md
+      - file: 08_files/2_file_system/README.md
+      - file: 08_files/3_data_files/README.md
   - file: 09_async/README.md
   - file: 10_engineering/README.md
     sections: 
       - file: 10_engineering/code_style/README.md
       - file: 10_engineering/testing/README.md
-      - file: 10_engineering/testing/unittest.md
-      - file: 10_engineering/testing/test-driven_development.md
+      - file: 10_engineering/testing/1_unittest.md
+      - file: 10_engineering/testing/2_pytest.md
+      - file: 10_engineering/testing/3_test_driven_development.md
       - file: 10_engineering/profiling/README.md
       - file: 10_engineering/documentation/README.md
       - file: 10_engineering/documentation/markdown.md
