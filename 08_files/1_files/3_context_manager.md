@@ -7,7 +7,7 @@
 ## `__exit__`方法
 
 ```python
-def __exit__（type, value, trace):
+def __exit__(type, value, trace):
     return None
 ```
 
