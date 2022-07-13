@@ -20,6 +20,13 @@ print("Hello, World!")
 
 % 解释说明，程序=输入（hello world）->处理（print）->输出（打印出来的结果）
 
+% 进一步给一个可以调节输入的例子。
+
+```{code-cell} python
+my_name = "QuantTide"
+print(f"Hello, {my_name}")
+```
+
 % 异常情况举例
 
 % 括号误输入中文
