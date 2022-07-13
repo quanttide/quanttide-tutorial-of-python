@@ -3,7 +3,9 @@ root: README.md
 chapters:
   - file: 01_quick_start/README.md
     sections:
-      - file: 01_quick_start/1_hello_world/1_hello_world.md
+      - file: 01_quick_start/1_new_to_programming/README.md
+        sections:
+          - file: 01_quick_start/1_new_to_programming/1_hello_world.md
   - file: 02_control_flow/README.md
   - file: 03_exceptions/README.md
   - file: 04_data_types/README.md
