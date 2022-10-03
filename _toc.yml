@@ -31,7 +31,7 @@ chapters:
     sections:
       - file: 05_functions/buildin_functions/README.md
         sections:
-          - file: 05_functions/buildin_functions/print.ipynb
+          # - file: 05_functions/buildin_functions/print.ipynb
           - file: 05_functions/buildin_functions/sort.md        
       - file: 05_functions/code_style/naming_function.md
       - file: 05_functions/functional_programming/README.md
