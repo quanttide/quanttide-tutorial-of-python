@@ -22,6 +22,14 @@ chapters:
           # - file: 01_quick_start/3_a_little_more/2_intro_to_objects.ipynb
           # - file: 01_quick_start/3_a_little_more/3_intro_to_modules.ipynb
   - file: 02_control_flow/README.md
+    sections: 
+      - file: 02_control_flow/1_basic_knowledge/README.md
+        sections: 
+          - file: 02_control_flow/1_basic_knowledge/1_statements.md
+          - file: 02_control_flow/1_basic_knowledge/2_comments.md
+          - file: 02_control_flow/1_basic_knowledge/3_operators.md
+      - file: 02_control_flow/2_if_condition_statement/README.md
+      - file: 02_control_flow/3_for_loop_statement/README.md
   - file: 03_exceptions/README.md
   - file: 04_data_types/README.md
     sections:
