@@ -1,17 +1,3 @@
----
-author: 张果
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.13.8
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # Hello, World
 
 让我们从“Hello，World”这个经典例子开始学习编程。
