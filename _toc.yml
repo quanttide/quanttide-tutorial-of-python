@@ -7,15 +7,14 @@ chapters:
         sections:
           - file: 01_quick_start/1_new_to_programming/1_hello_world.md
           - file: 01_quick_start/1_new_to_programming/2_python_as_calculator.md
-          # - file: 01_quick_start/1_new_to_programming/3_intro_to_data_types.ipynb
-          # - file: 01_quick_start/1_new_to_programming/4_intro_to_control_loops.ipynb
-          # - file: 01_quick_start/1_new_to_programming/5_intro_to_exceptions.ipynb
+          - file: 01_quick_start/1_new_to_programming/3_intro_to_data_types.md
+          - file: 01_quick_start/1_new_to_programming/4_intro_to_control_loops.md
+          - file: 01_quick_start/1_new_to_programming/5_intro_to_exceptions.md
       - file: 01_quick_start/2_installation/README.md
         sections:
           - file: 01_quick_start/2_installation/1_installing_python.md
           - file: 01_quick_start/2_installation/2_installing_pycharm.md
-          - file: 01_quick_start/2_installation/3_applying_pycharm_edu_license.md
-          # - file: 01_quick_start/2_installation/4_installing_anaconda.ipynb
+          # - file: 01_quick_start/2_installation/3_installing_anaconda.ipynb
       - file: 01_quick_start/3_a_little_more/README.md
         # sections: 
           # - file: 01_quick_start/3_a_little_more/1_intro_to_functions.ipynb
@@ -29,12 +28,18 @@ chapters:
           - file: 02_control_flow/1_basic_knowledge/2_comments.md
           - file: 02_control_flow/1_basic_knowledge/3_operators.md
       - file: 02_control_flow/2_if_condition_statement/README.md
+        sections:
+          - file: 02_control_flow/2_if_condition_statement/ternary_condition_statement.md
       - file: 02_control_flow/3_for_loop_statement/README.md
   - file: 03_exceptions/README.md
   - file: 04_data_types/README.md
     sections:
-      - file: 04_data_types/dict/README.md
       - file: 04_data_types/string/README.md
+        sections:
+          - file: 04_data_types/string/converting_with_sequence_types.md
+      - file: 04_data_types/dict/README.md
+        sections: 
+          - file: 04_data_types/dict/indexing_with_key.md
   - file: 05_functions/README.md
     sections:
       - file: 05_functions/buildin_functions/README.md
