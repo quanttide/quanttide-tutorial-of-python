@@ -1,3 +1,8 @@
+---
+level: introductory
+stage: alpha
+---
+
 # 语句
 
 语句：可以单独执行的、能够产生实际效果的代码。

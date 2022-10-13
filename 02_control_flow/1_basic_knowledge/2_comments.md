@@ -1,3 +1,8 @@
+---
+level: introductory
+stage: alpha
+---
+
 # 注释
 
 什么是注释？

@@ -1,3 +1,8 @@
+---
+level: introductory
+stage: alpha
+---
+
 # 错误和异常
 
 异常指在程序运行过程中发生的异常事件，通常是由外部问题（如硬件错误、输入错误）所导致的。
@@ -10,22 +15,11 @@
 print "test"
 ```
 
-```{code-cell} ipython3
-len "gege"
-```
-
 ### IndentationError
 
 ```{code-cell} ipython3
 for i in range(10):
 print("test")
-```
-
-### KeyboardInterrupt
-
-```{code-cell} ipython3
-import time
-time.sleep(100)
 ```
 
 ### NameError
@@ -35,10 +29,6 @@ name
 ```
 
 ### AttributeError
-
-```{code-cell} ipython3
-'my_string'.list()
-```
 
 ```{code-cell} ipython3
 'my_string'.len
@@ -55,10 +45,6 @@ my_dict['key']
 
 ```{code-cell} ipython3
 1 + "3"
-```
-
-```{code-cell} ipython3
-list(1)
 ```
 
 ### ValueError
@@ -79,15 +65,10 @@ from pandas import qt
 import numpyt
 ```
 
-```{code-cell} ipython3
-assert 1>2, "此处为提示语"
-```
+### AssertError
 
 ```{code-cell} ipython3
-if a>b:
-    print(a,b)
-else:
-    raise Exception("错误了")
+assert 1>2, "此处为提示语"
 ```
 
 ## 异常处理

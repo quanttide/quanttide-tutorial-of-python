@@ -1,3 +1,8 @@
+---
+level: introductory
+stage: alpha
+---
+
 # Hello, World
 
 让我们从“Hello，World”这个经典例子开始学习编程。

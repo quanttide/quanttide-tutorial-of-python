@@ -1,3 +1,8 @@
+---
+level: introductory
+stage: alpha
+---
+
 # 把Python当做计算器
 
 本课时演示如何把Python当做一个简单的计算器使用。
