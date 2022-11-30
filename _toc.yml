@@ -27,10 +27,15 @@ chapters:
           - file: 02_control_flow/1_basic_knowledge/1_statements.md
           - file: 02_control_flow/1_basic_knowledge/2_comments.md
           - file: 02_control_flow/1_basic_knowledge/3_operators.md
-      - file: 02_control_flow/2_if_condition_statement/README.md
+      - file: 02_control_flow/2_condition_statement/README.md
         sections:
-          - file: 02_control_flow/2_if_condition_statement/ternary_condition_statement.md
-      - file: 02_control_flow/3_for_loop_statement/README.md
+          - file: 02_control_flow/2_condition_statement/1_if_statement.md
+          - file: 02_control_flow/2_condition_statement/2_ternary_condition_statement.md
+      - file: 02_control_flow/3_loop_statement/README.md
+        sections:
+          - file: 02_control_flow/3_loop_statement/1_for_statement.md
+          - file: 02_control_flow/3_loop_statement/2_while_statement.md
+          - file: 02_control_flow/3_loop_statement/3_break_and_continue.md
   - file: 03_exceptions/README.md
   - file: 04_data_types/README.md
     sections:
@@ -66,21 +71,25 @@ chapters:
       - file: 08_files/3_data_files/README.md
   - file: 09_async/README.md
   - file: 10_engineering/README.md
-    sections:  
-      - file: 10_engineering/code_style/README.md
-      - file: 10_engineering/testing/README.md
-        sections:  # subsections
-          - file: 10_engineering/testing/1_unittest.md
-          - file: 10_engineering/testing/2_pytest.md
-          - file: 10_engineering/testing/3_test_driven_development.md
-      - file: 10_engineering/profiling/README.md
-      - file: 10_engineering/documentation/README.md
-        sections:  # subsections
-          - file: 10_engineering/documentation/markdown.md
-      - file: 10_engineering/multiversions/README.md
-        sections:  # subsections
-          - file: 10_engineering/multiversions/pyenv.md
-          - file: 10_engineering/multiversions/venv.md
-  - file: 11_network/README.md
     sections:
-      - file: 11_network/http/status_code.md
+      - file: 10_engineering/1_debugging/README.md
+      - file: 10_engineering/2_testing/README.md
+        sections:
+          - file: 10_engineering/2_testing/1_unittest.md
+          - file: 10_engineering/2_testing/2_pytest.md
+          - file: 10_engineering/2_testing/3_coverage.md
+          - file: 10_engineering/2_testing/4_test_driven_development.md
+      - file: 10_engineering/3_profiling/README.md
+  - file: 11_cooperation/README.md
+    sections:
+      - file: 11_cooperation/1_documentation/README.md
+        sections:
+           - file: 11_cooperation/1_documentation/markdown.md
+      - file: 11_cooperation/2_code_style/README.md
+        sections: 
+          - file: 11_cooperation/2_code_style/naming.md
+      - file: 11_cooperation/3_version_control/README.md
+  - file: 12_database/README.md
+  - file: 13_network/README.md
+    sections:
+      - file: 13_network/http/status_code.md
