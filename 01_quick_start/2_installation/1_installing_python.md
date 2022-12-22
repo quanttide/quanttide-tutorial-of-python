@@ -22,6 +22,9 @@
 ![](images/Windows下载2.png)
 
 根据电脑系统位数下载相应的installer即可。
+
+> **installer和embeddable package安装包的区别**:embeddable package是一个内嵌包，内容非常小，没有第三方库，仅仅是一个解释器。installer
+> 是一个完整的安装包，包含运行环境、解释器、第三方库等。
     
 接下来以macOS为例，在第一步中选择mac后，显示的界面与上述第二张图片相似，但是其页面的3.9.13版本不同，如下图所示。
 
