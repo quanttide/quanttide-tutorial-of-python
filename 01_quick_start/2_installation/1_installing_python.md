@@ -8,7 +8,6 @@
 ![](images/download_menu.png)
 
 
-
 2.选择合适的版本和文件包进行下载。在上一步后，会看到如下图所示的界面，这里以windows为例。
 
 ![](images/Python%20release%20for%20windows.png) 
@@ -32,12 +31,28 @@
 
 根据macOS的芯片情况点击相应的版本进行下载。
 
-3. 安装Python。在下载完Python安装包后，双击打开。按照安装器提示，完成即可。但windows注意以下几点：
-   
-   - 如果选择custom 安装有一些选项，最重要的是add path，建议安装到all users（指计算机有多个账号）。注意不要把路径放在根目录，比如D盘，需要自己给个文件夹。Python会安装文件到设置的目录为根目录。
-   - 安装完测试python解释器。Windows自带搜索栏搜索CMD或者命令提示符。输入python，返回的页面应该是XXX。exit()回车。
-   - 测试pip是否可用，命令栏输入pip install requests。pip如果出现网络问题，需要换清华的源。
+3. 安装Python。在下载完Python安装包后，双击打开。Mac版本的Python按照安装器提示，完成即可。windows版本的版本安装要注意以下几点：
 
+![](images/Python已安装.png)
+
+   - 如果双击安装文件，显示如上图所示，表明系统安装过该版本的Python，点击"Repair"第二个选项，等待修复完成即可。
+
+   - 如果双击安装文件，显示如下图所示，表明系统是第一次安装该版本的Python，按图片内提示勾选选项，然后点击"Install Now"。
+
+![](images/windows_installer.png)
+   
+   安装成功后，就会显示安装成功，如下图所示。
+
+![](images/安装成功.png)
+
+   - 如果选择custom 安装有一些选项，最重要的是add path，建议安装到all users（指计算机有多个账号）。注意不要把路径放在根目录，比如D盘，需要自己给个文件夹。Python会安装文件到设置的目录为根目录。
+
+   - 安装完测试python解释器。Windows自带搜索栏搜索CMD或者命令提示符。输入python，返回的页面应该是XXX。exit()回车，如下图所示。
+
+   - 测试pip是否可用，命令栏输入pip install requests。pip如果出现网络问题，需要换清华的源，在命令行输入以下命令。
+   ```shell
+   pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+   ```
 
 ## 使用
 
@@ -54,18 +69,12 @@
 ```
 
 ## pip的使用
+pip是Python的安装命令行工具。安装第三方库的命令格式为：pip install []  
 
 ```shell
 pip install requests
 ```
 
-### 换源
-
-换清华源。
-Python 换源，在终端输入以下命令行
-```shell
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
 
 ## 注意
 
