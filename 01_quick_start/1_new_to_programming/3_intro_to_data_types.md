@@ -106,11 +106,7 @@ False的本质是0
 int(False)
 ```
 
-## 序列类型 (Sequence)
-
-序列的定义为有序排列、可以通过下标索引
-
-### 列表
+## 列表
 
 可变的有序表
 
@@ -138,7 +134,7 @@ my_list[i:i+1]
 []
 ```
 
-### 元组
+## 元组
 
 不可变的有序表
 
@@ -161,7 +157,7 @@ my_tuple[1]
 ()
 ```
 
-### 字符串
+## 字符串
 
 有字符组成、有序可按顺序索引。
 
@@ -201,32 +197,47 @@ print(my_str2)
 ""
 ```
 
-## 映射和集合类型
-
-### 字典
+## 字典
 
 由键值对（key-value）组成，可以通过键（key）查询值（value）。
 
-```{code-cell} ipython3
+创建一个字典：
+
+```{code-cell} python
 my_dict = {"key1":1, "key2":2}
 my_dict
 ```
 
-```{code-cell} ipython3
+创建一个空字典：
+
+```{code-cell} python
+empty_dict = {}
+empty_dict
+```
+
+查看字典的类型：
+
+```{code-cell} python
+my_dict = {"key1":1, "key2":2}
 type(my_dict)
 ```
 
-```{code-cell} ipython3
+访问字典中的值可以使用键名：
+
+```{code-cell} python
+my_dict = {"key1":1, "key2":2}
 my_dict['key1']
 ```
 
-空字典：
+如果你想在字典中添加一个新项，可以使用键名为索引，并将值赋给它：
 
-```{code-cell} ipython3
-{}
+```{code-cell} python
+my_dict = {"key1":1, "key2":2}
+my_dict['key3'] = 0.4
+my_dict
 ```
 
-### 集合
+## 集合
 
 自动去重复值，类似于数学上的集合
 
