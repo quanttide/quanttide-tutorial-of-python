@@ -1,3 +1,8 @@
+---
+level: introductory
+stage: alpha
+---
+
 # 安装Python解释器
 
 ## 下载和安装
