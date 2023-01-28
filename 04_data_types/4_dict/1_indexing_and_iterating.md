@@ -1,3 +1,8 @@
+---
+level: introductory
+stage: alpha
+---
+
 # 索引和遍历字典
 
 ## 索引
