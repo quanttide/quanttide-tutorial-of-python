@@ -41,9 +41,10 @@ chapters:
       - file: 04_data_types/string/README.md
         sections:
           - file: 04_data_types/string/converting_with_sequence_types.md
-      - file: 04_data_types/dict/README.md
+      - file: 04_data_types/4_dict/README.md
         sections: 
-          - file: 04_data_types/dict/indexing_with_key.md
+          - file: 04_data_types/4_dict/1_indexing_and_iterating.md
+          - file: 04_data_types/4_dict/2_updating.md
   - file: 05_functions/README.md
     sections:
       - file: 05_functions/buildin_functions/README.md

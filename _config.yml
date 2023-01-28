@@ -6,6 +6,7 @@ author: 量潮课堂
 description: Python语言和编程入门到进阶
 level: introductory
 stage: dev
+category: tutorial
 tags:
   - python
 # Jupyter Book Config
