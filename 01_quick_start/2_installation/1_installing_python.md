@@ -7,19 +7,21 @@ stage: alpha
 
 ## 下载和安装
 
+Python目前已支持所有主流操作系统，在Unix系统上自带Python环境，而在Windows系统上需要安装一下
+
 1. 打开官网（https://www.python.org/）
-，可以看到如下菜单栏。确定电脑系统的型号，Windows系统电脑点击Windows，Apple生产的电脑点击macOS。
+，可以看到如下菜单栏。确定电脑系统的型号，Windows系统电脑点击Windows，macOS系统的电脑点击macOS。
 
 ![](images/download_menu.png)
 
 
-2.选择合适的版本和文件包进行下载。在上一步后，会看到如下图所示的界面，这里以windows为例。
+2.选择合适的版本和文件包进行下载。在上一步后，会看到如下图所示的界面，这里以Windows为例。
 
 ![](images/Python%20release%20for%20windows.png) 
 
 版本号一般为"X.X.X"格式，常说的Python版本3.8、3.9和3.10等，
 指的是版本号的前两位,在决定好是3.X后，选择提供下载文件的最新版本。
-**建议选择3.8+的，本教程将选用3.9作为示例。**
+**建议选择3.8及以上的，本教程将选用3.9作为示例。**
 
 比如，3.9.16虽然是最新的版本，但并无可供下载的文件，因此继续向下寻找，找到可以下载的3.9.13，如下图所示。
 
@@ -36,7 +38,7 @@ stage: alpha
 
 根据macOS的芯片情况点击相应的版本进行下载。
 
-3. 安装Python。在下载完Python安装包后，双击打开。Mac版本的Python按照安装器提示，完成即可。windows版本的版本安装要注意以下几点：
+3. 安装Python。在下载完Python安装包后，双击打开。Mac版本的Python按照安装器提示，完成即可。Windows版本的版本安装要注意以下几点：
 
 ![](images/Python已安装.png)
 
